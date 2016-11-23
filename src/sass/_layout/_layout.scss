@@ -1,0 +1,26 @@
+.page {
+  @include container();
+}
+
+@include breakpoint($tablet, true) {
+  .content {
+    @include span(8 of 12);
+  }
+
+
+  .side {
+    @include span(4 at 9 of 12);
+  }
+}
+
+header {
+  @include span(10 of 12);
+
+  @include breakpoint($narrow, true) {
+    @include span(5);
+  }
+}
+
+.menu-expander {
+  @include span(2 of 12 last);
+}

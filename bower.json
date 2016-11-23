@@ -1,0 +1,23 @@
+{
+  "name": "gulp-susy-breakpoint-glob",
+  "version": "0.0.0",
+  "authors": [
+    "Brad Allen Fisher"
+  ],
+  "license": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "breakpoint-sass": "~2.5.0",
+    "susy": "~2.2.2"
+  },
+  "devDependencies": {
+    "breakpoint-sass": "~2.5.0",
+    "compass-mixins": "^1.0.2"
+  }
+}
